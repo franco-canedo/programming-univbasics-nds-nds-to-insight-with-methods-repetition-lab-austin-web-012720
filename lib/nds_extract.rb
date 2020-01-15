@@ -50,6 +50,7 @@ def total_gross(source)
   index = 0 
   while index < hash.length do 
    total += hash[index]
+   index += 1
   end
   
   total
