@@ -28,10 +28,8 @@ def list_of_directors(source)
   list = []
   index = 0 
   while index < source.length do 
-    
+    list << source[:name] 
   end 
-  
-
 end
 
 def total_gross(source)
