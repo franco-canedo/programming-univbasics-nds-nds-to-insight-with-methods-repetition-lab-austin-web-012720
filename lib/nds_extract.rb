@@ -46,7 +46,7 @@ def total_gross(source)
   # return the total
   
   total = 0 
-  hash = directors_totals
+  hash = directors_totals(source)
   index = 0 
   while index < hash.length do 
    total += hash[index]
